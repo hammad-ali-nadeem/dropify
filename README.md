@@ -1,4 +1,4 @@
-# dropify
+# Dropify
 Drag-and-Drop Playground
 A user-friendly web application where users can drag and drop text, images, and shapes onto a playground area. Users can reposition elements, edit their properties, and see real-time updates. The selected element is highlighted with a border for better visibility.
 
@@ -49,7 +49,7 @@ Clone the repository or download the project files:
 
 bash
 Copy
-git clone https://github.com/your-username/drag-and-drop-playground.git
+git clone https://github.com/hammad-ali-nadeem/dropify
 Navigate to the project directory:
 
 bash
