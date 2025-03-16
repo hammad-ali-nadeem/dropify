@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropify</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Dropify</h1>
+    </header>
+    <div class="container">
+    
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h3>Elements</h3>
+      <div class="element" data-type="text">📝 Text</div>
+      <div class="element" data-type="image">🖼️ Image</div>
+      <div class="element" data-type="shape">🔶 Shape</div>
+    </div>
+
+    <!-- Playground -->
+    <div class="playground-container">
+        <h3>Playground</h3>
+        <div class="playground" id="playground"></div>
+    </div>
+
+    <!-- Properties Panel -->
+    <div class="properties-panel">
+      <h3>Properties</h3>
+      <div id="properties-content">
+        <!-- Dynamic content based on selected element -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
