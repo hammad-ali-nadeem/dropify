@@ -47,18 +47,12 @@ A code editor (e.g., VS Code, Sublime Text).
 2. Download the Project
 Clone the repository or download the project files:
 
-bash
-Copy
+
 git clone https://github.com/hammad-ali-nadeem/dropify
 Navigate to the project directory:
-
-bash
-Copy
 cd drag-and-drop-playground
 3. Open the Project
 Open the index.html file in your browser.
-
-Alternatively, use a live server extension in your code editor to run the project.
 
 Usage
 Add Elements:
@@ -83,14 +77,6 @@ Image: Enter an image URL and adjust the width and height.
 
 Shape: Paste SVG code and adjust the width and height.
 
-File Structure
-Copy
-drag-and-drop-playground/
-│
-├── index.html          # Main HTML file
-├── styles.css          # CSS for styling the application
-├── script.js           # JavaScript for interactivity and logic
-└── README.md           # Project documentation
 Customization
 Add New Elements:
 
